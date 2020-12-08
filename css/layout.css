@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+* {
+  text-align: center;
+}
+
+#a {
+  width: 960px;
+  line-height: 100px;
+  float: clear;
+
+}
+
+#b {
+  width: 200px;
+  line-height: 600px;
+  float: left;
+}
+
+#cd {
+width: 380px;
+line-height: 200px;
+display: inline;
+}
+
+#efgh div {
+  width: 190px;
+  line-height: 250px;
+  display: inline;
+  margin: auto;
+}
+
+#i {
+  width: 760px;
+  line-height: 150px;
+}
+
+
