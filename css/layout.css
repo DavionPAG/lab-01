@@ -1,10 +1,3 @@
-html{
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-
 * {
   text-align: center;
 }
@@ -22,22 +15,22 @@ html{
   float: left;
 }
 
-#cd {
+#cd > div{
 width: 380px;
 line-height: 200px;
-display: inline;
+display: inline-block;
 }
 
-#efgh div {
+#efgh > div {
   width: 190px;
   line-height: 250px;
-  display: inline;
-  margin: auto;
+  display: inline-block;
 }
 
 #i {
   width: 760px;
   line-height: 150px;
+  display: inline-block;
 }
 
 

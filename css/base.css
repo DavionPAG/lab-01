@@ -2,6 +2,27 @@
   box-sizing: border-box;
 }
 
-div {
-  background-color: teal;
+#a {
+  background-color: silver;
+  border: 2px gold outset;
+}
+
+#b {
+  background-color: gold;
+  border: 2px silver inset;
+}
+
+#cd {
+  background-color: greenyellow;
+  border: 2px blue inset;
+}
+
+#efgh {
+  background-color: blue;
+  border: 2px greenyellow outset;
+}
+
+#i {
+  background-color: white;
+  border: 2px black inset;
 }
