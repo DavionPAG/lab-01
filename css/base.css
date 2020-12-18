@@ -1,5 +1,5 @@
 @media (min-width: 480px) {
-* {
+/* * {
   box-sizing: border-box;
   font-family: 'Syne Mono', monospace;
 }
@@ -14,49 +14,40 @@
 }
 
 
-#cd {
+#c {
   background-color: greenyellow;
   border: 2px white inset;
 }
 
-#efgh {
+#d {
+  background-color: greenyellow;
+  border: 2px white inset;
+}
+
+#e {
   background-color: blue;
   border: 2px white inset;}
 
+  #f {
+    background-color: greenyellow;
+    border: 2px white inset;
+  }
 
+  #g {
+    background-color: greenyellow;
+    border: 2px white inset;
+  }
+  
+#h {
+  background-color: greenyellow;
+  border: 2px white inset;
+}
 #i {
   background-color: greenyellow;
   border: 2px white inset;
 }
-}
+
+} */
 
 /*mobile*/
 
-@media (max-width: 480px) {
-  * {
-    box-sizing: border-box;
-    font-family: 'Syne Mono', monospace;
-  }
-  
-  #a {
-    background-color: darkgray;
-    border: 2px black inset;  }
-  
-  #b {
-    background-color: purple;
-    border: 2px black inset;  }
-  
-  #cd > div {
-    background-color: orange;
-    border: 2px black inset;  }
-  
-  #efgh > div {
-    background-color: purple;
-    border: 2px black inset;
-  }
-  
-  #i {
-    background-color: orange;
-    border: 2px black inset;
-  }
-}
