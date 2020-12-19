@@ -1,16 +1,34 @@
 'use strict'
 
-let color = ['#8FD8D8','#66CCCC','#ADEAEA','#70DBDB','#AEEEEE','#AFEEEE','#008080','#008B8B','#37FDFC','#00EEEE','#0EBFE9','#0BB5FF'];
+let color = ['#E74C3C', '#9B59B6', '#2980B9', '#1ABC9C', '#78281F', '#78281F', '#0B5345', '#7B7D7D', '#1B4F72', '#186A3B', '#7D6608', '#6E2C00', '#424949', '#212F3D', '#FDEDEC', '#F4ECF7', '#E8F8F5', '#E8F6F3', '#82E0AA', '#FAE5D3', '#D5DBDB'];
 
-let id = ['#a','#b','#c','#d','#e','#f','#g','#h','#i']
+let colorCheck = []
+
+let id = ['#a', '#b', '#c', '#d', '#e', '#f', '#g', '#h', '#i']
+
+
 
 function genRdmCol() {
   for (var i = 0; i < id.length; i++) {
     var str = id[i];
     let rdmColor = color[Math.floor(Math.random() * color.length)];
-
+    colorCheck.push(rdmColor)
+    if (colorCheck.includes === rdmColor) {
+      genRdmCol()
+    }
     $(str).css('background-color', rdmColor);
   }
 }
 
 genRdmCol();
+
+$(document).ready($(window).bind("resize", checkPosition));
+
+function checkPosition() {
+  if ($(window).width() === 480 || $(window).width() === 720) {
+    genRdmCol();
+  }
+  
+};
+
+
