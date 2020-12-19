@@ -9,6 +9,7 @@ let id = ['#a', '#b', '#c', '#d', '#e', '#f', '#g', '#h', '#i']
 
 
 function genRdmCol() {
+
   for (var i = 0; i < id.length; i++) {
     var str = id[i];
     let rdmColor = color[Math.floor(Math.random() * color.length)];
@@ -25,7 +26,7 @@ genRdmCol();
 $(document).ready($(window).bind("resize", checkPosition));
 
 function checkPosition() {
-  if ($(window).width() === 480 || $(window).width() === 720) {
+  if ($(window).width() === 480 || $(window).width() === 720 ) {
     genRdmCol();
   }
   
