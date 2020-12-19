@@ -2,8 +2,8 @@
 
 @media (min-width: 721px) {
    body {
-    width: 960px;
-    margin: auto;
+    width: 100%;
+    
   }
 
   main {
@@ -11,7 +11,8 @@
     grid-template-columns: repeat(5, 1fr); 
     grid-template-rows: repeat(4, 1fr);
     height: 768px;
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
 
   div {
@@ -71,8 +72,8 @@
    grid-template-columns: repeat(5, 1fr); 
    grid-template-rows: repeat(4, 1fr);
    height: 480px;
-    width: 720px;
-    margin: auto;
+   width: 90%;
+   margin: auto;
  }
 
  div {
@@ -131,7 +132,8 @@
    grid-template-columns: repeat(2, 1fr);   
    grid-template-rows: repeat(9, 1fr);                  
    height: 767px;
-   width: 100%;
+   width: 90%;
+    margin: auto;
  }
 
  div {
